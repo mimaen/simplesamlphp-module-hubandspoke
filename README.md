@@ -99,7 +99,7 @@ Read the docs to see all the options.
                     'hashFunction' => 'md5',
                     'userID'       => array('Attributes/mail', 'UserID'),
                     'fields'       => 'userID',
-                    'ifTarget'     => '#^https?://([^./]+\.)*example\.com/?.*$#',
+                    'ifTarget'     => '#^https?://([^./]+\.)*example\.com(/|$)#',
                 ),
             ),
         ),
