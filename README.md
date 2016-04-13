@@ -91,7 +91,7 @@ Read the docs to see all the options.
                 'new' => array(
                     'prefix'          => '{new}',
                     'targetTransform' => array(
-                        '#^(https?://)[^./]+\.(blogs\.example\.com/?).*$#' => '$1$2',
+                        '#^(https?://)[^./]+\.(blogs\.example\.com)(/|$).*$#' => '$1$2/',
                     ),
                 ),
                 'old' => array(
