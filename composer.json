@@ -10,6 +10,7 @@
         }
     ],
     "keywords": ["SAML", "SimpleSAMLphp", "Hub-and-Spoke", "IdP", "SP", "eduPersonTargetedId"],
+    "minimum-stability": "dev",
     "require": {
         "simplesamlphp/composer-module-installer": "~1.0"
     }
