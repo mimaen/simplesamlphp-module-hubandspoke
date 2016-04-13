@@ -2,6 +2,14 @@
     "name": "mimaen/simplesamlphp-module-hubandspoke",
     "description": "SimpleSAMLphp utilities for Hub & Spoke federations",
     "type": "simplesamlphp-module",
+    "license": "LGPL-2.1",
+    "authors": [
+        {
+            "name": "Miguel Macías Enguídanos",
+            "email": "mimaen@inf.upv.es"
+        }
+    ],
+    "keywords": ["SAML", "SimpleSAMLphp", "Hub-and-Spoke", "IdP", "SP", "eduPersonTargetedId"],
     "require": {
         "simplesamlphp/composer-module-installer": "~1.0"
     }
