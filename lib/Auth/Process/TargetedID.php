@@ -187,7 +187,7 @@ class sspmod_hubandspoke_Auth_Process_TargetedID extends SimpleSAML_Auth_Process
                     }
                     if (!empty($data)) {
 			$data= (array) $data;	// if value is string => insert into a new array
-                        $value= $data[0];	// first value selected
+			$value = array_values(array_slice($data, -1))[0];  // last value selected
                         break;
                     }
                 }
